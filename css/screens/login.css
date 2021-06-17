@@ -1,0 +1,64 @@
+.welcome-header {
+  margin: 90px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome-header__title {
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-family: Lobster;
+}
+
+.welcome-header__text {
+  width: 60%;
+  color: rgba(1, 1, 1, 0.7);
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 30px;
+}
+
+/*~submit 버튼은 빼고
+.login-form input:not([type="submit"])
+*/
+
+.login-form__input {
+  padding: 15px 0;
+  border: none;
+  font-size: 18px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  transition: border-color 0.3s ease-in-out;
+}
+
+.login-form__input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.login-form__input:focus {
+  border-color: var(--peaches);
+}
+
+.login-form__btn {
+  background-color: var(--peaches);
+  cursor: pointer;
+  padding: 20px 0;
+  border-radius: 5px;
+  padding: 15px 0;
+  border: none;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.login-form__a {
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  font-size: 13px;
+}
+
+/*inherit 부모로 부터 상속받음*/
