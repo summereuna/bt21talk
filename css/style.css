@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import "reset.css";
 
 body {
   background-color: #ff7827;
