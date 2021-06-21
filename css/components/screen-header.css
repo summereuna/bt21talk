@@ -16,3 +16,11 @@
 .header__icons span {
   margin-left: 25px;
 }
+
+.header__icons {
+  position: relative;
+}
+
+.header__notification {
+  position: absolute;
+}
