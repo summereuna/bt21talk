@@ -5,13 +5,13 @@
   box-sizing: border-box;
   z-index: 1;
   top: 10px;
-  background-color: white;
   padding: var(--horizontal-space);
   padding-top: 40px;
   margin-bottom: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
+  color: var(--title-color);
 }
 
 .alt-header__title {
@@ -21,6 +21,10 @@
 
 .alt-header__column {
   width: 33%;
+}
+
+.settings__setting-column i {
+  color: var(--peaches);
 }
 
 .alt-header__column:first-child {

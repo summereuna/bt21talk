@@ -6,6 +6,7 @@
   font-size: 18px;
   margin-bottom: 25px;
   margin-top: -15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 #friends-display-link i {
@@ -63,8 +64,8 @@
 }
 
 #splash-screen img {
-  width: 300px;
-  height: 380px;
+  width: 200px;
+  height: 280px;
   object-fit: cover;
   border-radius: 140px;
 }

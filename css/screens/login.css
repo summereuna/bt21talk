@@ -1,19 +1,27 @@
 .welcome-header {
-  margin: 90px 0;
+  margin: 90px 0 60px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+.welcome-header img {
+  width: 200px;
+}
+
 .welcome-header__title {
   margin-bottom: 20px;
   font-size: 25px;
-  font-family: Lobster;
+  font-weight: 600;
 }
 
 .welcome-header__text {
   width: 60%;
   color: rgba(1, 1, 1, 0.7);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .login-form {
@@ -22,17 +30,14 @@
   margin: 0 30px;
 }
 
-/*~submit 버튼은 빼고
-.login-form input:not([type="submit"])
-*/
-
 .login-form__input {
-  padding: 15px 0;
+  padding: 15px;
   border: none;
   font-size: 18px;
   margin-bottom: 25px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   transition: border-color 0.3s ease-in-out;
+  border-radius: 30px;
 }
 
 .login-form__input::placeholder {
@@ -40,11 +45,11 @@
 }
 
 .login-form__input:focus {
-  border-color: var(--peaches);
+  border-color: #9890e3;
 }
 
 .login-form__btn {
-  background-color: var(--peaches);
+  background-color: #9890e3;
   cursor: pointer;
   padding: 20px 0;
   border-radius: 5px;
@@ -52,6 +57,13 @@
   border: none;
   font-size: 18px;
   margin-bottom: 25px;
+  border-radius: 30px;
+  color: white;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.login-form__btn:hover {
+  background-color: #4c3dcf;
 }
 
 .login-form__a {
@@ -61,4 +73,16 @@
   font-size: 13px;
 }
 
-/*inherit 부모로 부터 상속받음*/
+#index-background {
+  background-image: linear-gradient(to bottom, #9890e3 0%, #b1f4cf 100%);
+  height: 100vh;
+}
+
+#welcome-screen {
+  position: fixed;
+  bottom: 0;
+}
+
+#welcome-screen img {
+  width: 500px;
+}

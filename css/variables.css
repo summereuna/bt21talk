@@ -1,7 +1,10 @@
 :root {
-  --cream: #ffd301;
-  --peaches: #ff7827;
+  --cream: #eceaff;
+  --deepcream: #9890e3;
+  --peaches: #4c3dcf;
+  --title-color: #160d6d;
+  --green: #b1f4cf;
   --horizontal-space: 25px;
-  --main-border: 1px solid rgba(0, 0, 0, 0.2);
+  --main-border: 1px solid #b1add4;
   --gray: rgba(0, 0, 0, 0.5);
 }
