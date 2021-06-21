@@ -9,6 +9,10 @@
   align-items: center;
 }
 
+.icon-row__icon i {
+  font-size: 35px;
+}
+
 .icon-row__icon span {
   margin-top: 18px;
 }
