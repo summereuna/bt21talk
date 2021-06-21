@@ -32,7 +32,7 @@
 .more-suggestions__icon-image {
   width: 60px;
   height: 60px;
-  border-radius: 30px;
+  border-radius: 20px;
   margin-bottom: 10px;
 }
 
@@ -54,5 +54,16 @@ a:nth-child(4) div img {
 
 .more-suggestions__icon-text {
   color: var(--gray);
-  line-height: ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.more-suggestions__icon-text span:first-child {
+  font-size: 11px;
+  margin-bottom: 5px;
+}
+
+.more-suggestions__icon-text span:last-child {
+  font-weight: 600;
 }

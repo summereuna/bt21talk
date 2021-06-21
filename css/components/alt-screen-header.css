@@ -1,4 +1,11 @@
 .alt-header {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 1;
+  top: 10px;
+  background-color: white;
   padding: var(--horizontal-space);
   padding-top: 40px;
   margin-bottom: 15px;
@@ -12,10 +19,24 @@
   font-weight: 600;
 }
 
+.alt-header__column {
+  width: 33%;
+}
+
 .alt-header__column:first-child {
   margin-right: auto;
 }
 
+.alt-header__column:nth-child(2) {
+  text-align: center;
+}
+
 .alt-header__column:last-child {
   margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.alt-header__column span:first-child {
+  margin-right: 20px;
 }
