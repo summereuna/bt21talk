@@ -1,5 +1,5 @@
 .status-bar {
-  background-color: var(--peaches);
+  background-color: var(--violet);
   z-index: 2;
   position: fixed;
   top: 0;

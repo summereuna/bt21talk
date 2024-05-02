@@ -3,7 +3,7 @@
 }
 
 #chat-screen {
-  background-color: var(--deepcream);
+  background-color: var(--softviolet);
 }
 
 #chat-screen .alt-header,
@@ -12,7 +12,7 @@
   position: fixed;
   width: 100%;
   box-sizing: border-box;
-  background-color: var(--deepcream);
+  background-color: var(--softviolet);
   color: #160d6d;
 }
 
@@ -107,7 +107,7 @@
 }
 
 .message-row--own .message__bubble {
-  background-color: var(--peaches);
+  background-color: var(--violet);
   color: white;
   border-top-left-radius: 15px;
   border-top-right-radius: 0px;
@@ -142,7 +142,7 @@
 }
 
 .reply i {
-  color: var(--deepcream);
+  color: var(--softviolet);
 }
 
 .reply input {
@@ -163,19 +163,20 @@
 
 .reply__column:last-child > i {
   right: 42px;
-  top: 13px;
+  top: 19px;
 }
 
 .reply__column button {
-  background-color: var(--peaches);
+  background-color: var(--violet);
   color: white;
   border: none;
   width: 30px;
   height: 30px;
   border-radius: 50%;
 }
+
 .reply__column button i {
-  color: var(--cream);
+  color: var(--lightsoftviolet);
 }
 
 .reply__column button:focus,
