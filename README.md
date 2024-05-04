@@ -6,7 +6,7 @@ HTML과 CSS를 배운 후 제가 좋아하는 BT21 캐릭터를 활용하여 메
 
 ## 프로젝트 결과
 
-[🌐 BT21 Talk 홈페이지](https://summereuna.github.io/kokoa-challenge-2021/)
+[🌐 BT21 Talk 홈페이지](https://summereuna.github.io/bt21talk/)
 
 ![bt21talk](https://user-images.githubusercontent.com/58466648/154664384-3452a351-8333-43af-b9f8-94de27003327.gif)
 
